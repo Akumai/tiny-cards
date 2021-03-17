@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.8",
     "solid-js": "^0.24.15",
-    "solid-scripts": "0.0.54"
+    "solid-scripts": "0.0.54",
+    "tailwindcss": "^2.0.3"
   },
   "dependencies": {},
   "scripts": {

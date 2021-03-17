@@ -1,6 +1,6 @@
 {
-  "short_name": "Solid App",
-  "name": "Create Solid App Sample",
+  "short_name": "Tiny Cards",
+  "name": "Learn solidjs",
   "icons": [
     {
       "src": "favicon.ico",
