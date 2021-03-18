@@ -16,3 +16,7 @@ The better a user remembers a card, the further in future it is scheduled for a 
 ### Deck
 A deck is a set of cards. 
 
+- ID
+- Name
+- List of cards in it
+
