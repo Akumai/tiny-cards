@@ -1,6 +1,8 @@
 import logo from './assets/artboard_copy_142.png';
 import './App.css';
 
+import Deck from "./components/Deck";
+
 const DECKS = ["New words", "Kanji", "Verbs and conjugations", "Topic: food"]
 
 function App() {
