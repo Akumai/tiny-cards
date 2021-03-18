@@ -1,21 +1,27 @@
 import logo from './assets/artboard_copy_142.png';
 import './App.css';
 
+const DECKS = ["New words", "Kanji", "Verbs and conjugations", "Topic: food"]
+
 function App() {
-  return (
-    <div class="text-center">
-      <div class="app-header min-h-screen flex flex-col items-center justify-center text-white text-2xl">
-      
-        <img src={logo} class="h-40" alt="logo" />
+    return (
+        <div class="">
+            <div class="min-h-screen flex flex-col items-center justify-center">
 
-              <div>New words</div>
-              <div>Kanji</div>
-              <div>Verbs and conjugations</div>
-              <div>Topic: food</div>
+                <img src={logo} class="h-40" alt="logo"/>
+                <div class="text-2xl">Decks</div>
 
-      </div>
-    </div>
-  );
+                <div class="text-xl w-1/4">
+                    <For each={DECKS} fallback={<div>Loading...</div>}>
+                        {d => (
+                            <Deck description={d} />
+                        )}
+                    </For>
+
+                </div>
+            </div>
+        </div>
+    );
 }
 
 export default App;
